@@ -11,7 +11,7 @@ from utils import preprocess_data, scale_data, preprocess_data_api
 import pickle
 
 # Load the model and training data once when the server starts
-model = pickle.load(open('Log_reg_model.pkl', 'rb'))
+model = pickle.load(open('Risk_Prediction_GB_model.pkl', 'rb'))
 X_train = pickle.load(open('Training_Data.pkl', 'rb'))
 
 

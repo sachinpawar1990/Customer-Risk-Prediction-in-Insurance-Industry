@@ -14,7 +14,7 @@ os.makedirs('outputs', exist_ok=True)
 
 
 # Load the saved model
-filename = 'Log_reg_model.pkl'
+filename = 'Risk_Prediction_GB_model.pkl'
 loaded_model = pickle.load(open(filename, 'rb'))
 
 rare_categories ={'H1': [4.0, 5.0, 6.0, 7.0, 9.0],

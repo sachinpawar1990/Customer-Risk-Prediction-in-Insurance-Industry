@@ -10,7 +10,7 @@ import pickle
 app = Flask(__name__)
 
 # Load the model and training data once when the server starts
-model = pickle.load(open('Log_reg_model.pkl', 'rb'))
+model = pickle.load(open('Risk_Prediction_GB_model.pkl', 'rb'))
 X_train = pickle.load(open('Training_Data.pkl', 'rb'))
 
 rare_categories ={'H1': [4.0, 5.0, 6.0, 7.0, 9.0],
