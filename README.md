@@ -25,7 +25,7 @@ Files Included
 
 7. Training_data.pkl - Pickle file containing serialized training data.
 
-8. Log_reg_model.pkl - Pickle file containing a trained logistic regression model.
+8. Log_reg_model.pkl, Risk_Prediction_GB_model.pkl - Pickle files containing a trained logistic regression model and trained Gradient Boosting models respectively.
 
 9. fastapi_app.py - Python script for a FastAPI web application, which starts a uvicorn server and exposes API endpoints.
 
