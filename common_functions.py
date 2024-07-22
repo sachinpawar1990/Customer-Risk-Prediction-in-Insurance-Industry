@@ -27,7 +27,7 @@ def plot_count_percentage_missing(data, column_name):
         data: dataset name
         column_name: name of the column to be plotted.
 
-    Returns: Plot of count, percentage and missing values
+    Returns: None(Plot of count, percentage and missing values)
     
     """
     # Calculate value counts and percentages
@@ -97,7 +97,7 @@ def visualize_numeric_variables(data, numeric_columns):
         numeric_columns: names of the numeric columns to be plotted.
     
     Returns:
-        Histogram, Box PLot and Violin PLots of numeric variables. 
+        None(Histogram, Box PLot and Violin PLots of numeric variables.)
     """
     # Set the style for Seaborn plots
     sns.set(style="whitegrid")
@@ -137,7 +137,7 @@ def visualize_correlations(data):
         data: dataset name
 
     Returns: 
-        Heatmap of numerical as well as categorical variables
+        None(Heatmap of numerical as well as categorical variables)
     
     """
     # Separate numeric and categorical columns
@@ -178,7 +178,7 @@ def scatter_plot(data, x_column, y_column):
         y_column: name of the column to be plotted on Y axis.
 
     Returns:
-        Scatter plot of data
+        None(Scatter plot of data)
     
     """
     # Create a scatter plot

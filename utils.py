@@ -206,7 +206,7 @@ def evaluate_model_performance(y_true, y_pred, y_pred_proba=None):
         y_pred_proba: probabilities of model predictions
 
     Returns:
-        Show the plots and model performance metrics
+        None (Show the plots and model performance metrics)
     
     """
     # Calculate precision, recall, and F1-score
@@ -263,7 +263,7 @@ def evaluate_and_save_model_performance(y_true, y_pred, y_pred_proba=None):
         y_pred_proba: probabilities of model predictions
 
     Returns:
-        Saves the plots and show model performance metrics
+        None (Saves the plots and show model performance metrics)
     
     """
     # Calculate precision, recall, and F1-score
@@ -337,7 +337,7 @@ def save_model(model, filename):
     - filename: Name of the file to save the model (e.g., 'trained_model.pkl')
     
     Returns:
-    - None
+    - None (saves the model)
     """
     with open(filename, 'wb') as file:
         pickle.dump(model, file)
@@ -393,7 +393,7 @@ def plot_feature_importances(importances, feature_names):
     feature_names (array-like of shape (n_features,)): Names of features corresponding to importances.
 
     Returns:
-    None
+    None (plot feature importance graph)
     """
     # Convert importances and feature_names to numpy arrays if they are not already
     importances = np.array(importances)
